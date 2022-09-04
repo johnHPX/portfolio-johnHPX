@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e6e6e8;
+}
+
+
+.header-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header-main button {
+    display: none;
+}
+
+.nav-main {
+    background-color: #000002;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav-main ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-main ul li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+.nav-main ul li a {
+    text-decoration: none;
+    color: #e6e6e8;
+    transition: 1s;
+}
+
+.nav-main ul li a:hover {
+    color: #ccc5;
+}
+
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: #e6e6e8;
+    text-align: center;
+}
+
+.Enfase {
+    font-weight: bold;
+    color: #ccc;
+}
+
+.sobre {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-side {
+    width: 40%;
+    background-color: #ccc5;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+.description-side p {
+    font-size: .9em;
+    line-height: 1.5;
+    color: #000002;
+}
+
+.description-side a {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 10px;
+    background-color: goldenrod;
+    text-decoration: none;
+    color: #fff;
+}
+
+a.fb {
+    background-color: #3b5998;
+}
+
+a.gh {
+    background-color: #333333;
+}
+
+a.it {
+    background-color: #FD1D1D;
+}
+
+.conhecimentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #000002;
+    padding: 20px;
+}
+
+.conhecimentos h2 {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 2% 0;
+}
+
+.conhecimentos article {
+    width: 30%;
+    min-height: 500px;
+    margin: 10px;
+    border: 2px solid white;
+}
+
+.conhecimentos img {
+    width: 100%;
+    height: 200px;
+}
+
+.conhecimentos article h3,
+p {
+    color: #fff;
+    padding: 10px;
+}
+
+.conhecimentos article p {
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #000002;
+    text-align: right;
+}
+
+
+.projetos {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.projetos h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.project {
+    border: 2px solid #000002;
+    width: 30%;
+    min-height: 500px;
+    padding: 10px
+}
+
+.project p {
+    color: #000002;
+    text-align: center;
+}
+
+.project a {
+    color: #000002;
+}

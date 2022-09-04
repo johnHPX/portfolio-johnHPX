@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio - Jônatas Freitas</title>
+    <!-- import css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="./js/menuScript.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header-main" id="header">
+
+        <button id="menuButton" onclick="openCloseMenu()"><img src="./assets/menu.svg" alt="icone do menu"></button>
+
+        <nav class="nav-main">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#conhecimentos">SoftSkill</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <img src="./assets/bannerGimp.jpg" alt="banner de apresentação">
+            <p>Olá, meu nome é <span class="Enfase">Jônatas</span><br> e eu sou <br> <span class="Enfase">Junior BackEnd
+                    Developer!</span></p>
+        </div>
+    </header>
+
+    <section class="sobre" id="sobre">
+        <article class="description-side">
+            <p>Meu nome é Jonatas, mas muitos me chamam de Jonas. Comecei a estudar programação através do curso
+                técnico, que eu fiz junto com ensino médio. desde o primeiro ano, eu tinha despertado um certo interesse
+                pela área, mas nunca tinha me aprofundado. somente no segundo ano que eu decidir me aprofundar mais,
+                justamente por conta do projeto do "tcc" que teria que ser feito no terceiro ano. Mas por conta da
+                pandemia, esse projeto foi cancelado.No Entanto no terceiro ano tive a oportunidade de estagiar em um
+                software house, e lá passei ao todo 6 meses trabalhando diariamente com programação, o que me fez
+                despertar um interesse fortíssimo por essa amada área(ou odiada rsrs). Trabalhei como programador
+                BackEnd, criando soluções, automatizando tarefas, modelando banco de dados, desenvolvendo APIs, e várias
+                outras coisas. Desde que terminei o estágio, venho me aprofundando bastante no desenvolvimento de
+                aplicações web, construindo projetos pessoais para consolidar meu conhecimento.</p>
+            <a href="#" class="fb">LinkedIn</a>
+            <a href="#" class="gh">GitHub</a>
+            <a href="#" class="it">Instragram</a>
+        </article>
+        <article class="image-side">
+            <img src="" alt="foto do author">
+        </article>
+    </section>
+    <section class="conhecimentos" id="conhecimentos">
+        <h2>Soft Skills</h2>
+        <article>
+            <img src="assets/frontend.jpg" alt="html,css,javascript">
+            <h3>Básico de FrontEnd</h3>
+            <p>Tenho conhecimentos básicos em HTML, CSS e Javascript.</p>
+        </article>
+        <article>
+            <img src="assets/db.webp" alt="modelagem de banco de dados relacional">
+            <h3>Banco de dados</h3>
+            <p>Tenho experiência com levantamento de requisitos e de modelagem de banco de dados. Tenho conhecimentos em
+                Mysql e Postgresql.
+            </p>
+        </article>
+        <article>
+            <img src="assets/apirestful.png" alt="criação de APIs Rest">
+            <h3>API REST</h3>
+            <p>Tenho experiência com criação de APIs nas linguagens Golang e PHP. Utilizo Arquitetura MVC e JSON para
+                desenvolvê-las.
+            </p>
+        </article>
+        <article>
+            <img src="assets/aws.png" alt="Cload e Serviços da AWS">
+            <h3>Cloud e AWS</h3>
+            <p>Recentemente adquiri conhecimentos básico sobre cloud e AWS, conseguindo criar uma instância do EC2 para
+                configurar um servidor para produção com o CapRover, além de configurar um banco de dados
+                postgresql
+                com RDS e criar e gerenciar um bucket com S3.
+            </p>
+        </article>
+        <article>
+            <img src="assets/aut-tar.jpg" alt="Automação de Tarefas">
+            <h3>Automação de Tarefas</h3>
+            <p>Tenho conhecimento básicos para automação de tarefas utilizando Golang.</p>
+        </article>
+        <article>
+            <img src="assets/git.jpg" alt="Git, GitHub, Gitlab para times">
+            <h3>Git, Github e Gitlab</h3>
+            <p>Tenho conhecimentos em git para projetos em equipe.</p>
+        </article>
+        <article>
+            <img src="assets/documentacao.jpg" alt="Documentação">
+            <h3>Documentação de Projetos</h3>
+            <p>Tenho conhecimento básicos em documentação de software</p>
+        </article>
+    </section>
+    <section class="projetos" id="projetos">
+        <h2>Projetos Praticos</h2>
+        <article class="project">
+            <h2>Cadastro de Notícia</h2>
+            <p>Me inspirei em uma prova para programadores beckEnd junior da DevMedia para Fazer esse projeto. Foi o
+                primeiro projeto FullStack que fiz.</p>
+            <p><a href="#">Link do Github do projeto</a></p>
+            <p><a href="#">Link da Documentação</a></p>
+        </article>
+
+        <article class="project">
+            <h2>CMS Blog</h2>
+            <p>Uma API de CMS para blogs, criado com Golang, utilizando arquitetura MVC, postgresql,clean code e
+                migrations. Nesse projeto decidir colocara varias funcionalidades interressantes, como sistema de
+                autenticação JWT token, disparos de email automaticos, paginação, deploy com dockerfile, entre outras.
+                Ao todo foram mais 40 endPoints feitos.</p>
+            <p><a href="#">Link do Github do projeto</a></p>
+            <p><a href="#">Link da Documentação</a></p>
+        </article>
+
+        <article class="project">
+            <h2>Rede Social 1.0</h2>
+            <p>Projeto do curso "Aprenda Golang do Zero! Desenvolva uma aplicação completa" da udemy, que consistem em
+                uma API para uma rede social. eu refiz o projeto do zero e coloquei para os padrões que utilizo.</p>
+            <p><a href="#">Link do Github do projeto</a></p>
+            <p><a href="#">Link da Documentação</a></p>
+        </article>
+
+        <article class="project">
+            <h2>Organizador de Downloads</h2>
+            <p>um executavel que organizar a pasta de download. organiza de acordo com o ano, mes e dia de download +
+                nome do arquivo. Funciona em Linux e Widows.</p>
+            <p><a href="#">Link do Github do projeto</a></p>
+            <p><a href="#">Link da Documentação</a></p>
+        </article>
+    </section>
+    <footer class="footer">
+        <p>Created by Jônatas &copy; </p>
+    </footer>
+
+</body>
+
+</html>
