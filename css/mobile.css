@@ -68,8 +68,9 @@
     }
 
     .banner p {
-        font-size: 2em;
-        text-align: left;
+        font-size: 2.5em;
+        width: 80%;
+        text-align: center;
     }
 
     .Enfase {

@@ -1,0 +1,53 @@
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+    .header-main button {
+        display: none;
+    }
+
+    .nav-main {
+        position: static;
+    }
+
+    .banner p {
+        font-size: 3em;
+        text-align: center;
+        width: 80%;
+    }
+
+    .sobre {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .description-side {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description-side p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .description-side a {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .conhecimentos article {
+        width: 40%;
+    }
+
+    .project {
+        width: 40%;
+    }
+
+}
