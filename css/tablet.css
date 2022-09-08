@@ -23,6 +23,7 @@
     }
 
     .description-side {
+        order: 2;
         width: 100%;
         margin: 0;
         padding: 20px;
@@ -40,6 +41,10 @@
     .description-side a {
         text-align: center;
         margin: 10px;
+    }
+
+    .image-side {
+        order: 1;
     }
 
     .conhecimentos article {

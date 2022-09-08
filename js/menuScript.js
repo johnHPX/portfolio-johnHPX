@@ -1,6 +1,4 @@
-// var menuButton = document.getElementById("menuButton")
-var menu = document.getElementsByClassName("nav-main")[0]
-
 function openCloseMenu() {
+    let menu = document.getElementsByClassName("nav-main")[0]
     menu.classList.toggle("active")
 }

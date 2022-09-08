@@ -89,10 +89,21 @@
         width: 100%;
         margin: 0;
         padding: 20px;
+        order: 2;
     }
 
     .description-side p {
         text-align: center;
+    }
+
+    .description-side a {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .image-side {
+        order: 1;
+        margin-bottom: 5%;
     }
 
     .conhecimentos article {
