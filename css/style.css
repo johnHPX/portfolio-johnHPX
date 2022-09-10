@@ -219,5 +219,14 @@ p {
 }
 
 .project a {
+    display: block;
     color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #3b5998;
+    border-radius: 20px;
+}
+
+.project a:hover{
+    background-color: #374a72;
 }
